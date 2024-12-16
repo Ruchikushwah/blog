@@ -21,7 +21,7 @@
                 @foreach($topics as $topic)
                 <tr>
 
-                    <td class="px-4 py-2 text-gray-700">{{$topic->topic_id}}</td>
+                    <td class="px-4 py-2 text-gray-700">{{$topic->id}}</td>
                     <td class="px-4 py-2 text-gray-700">{{$topic->topic_name}}</td>
                     <td class="px-4 py-2 text-gray-600">{{$topic->topic_description}}</td>
                     <td class="px-4 py-2">

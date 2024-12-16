@@ -29,8 +29,8 @@
       <nav class="space-x-6">
         <a href="{{route('admin.dashboard')}}" class="text-gray-700 hover:text-blue-600">Dashboard</a>
         <a href="{{route('admin.topics')}}" class="text-gray-700 hover:text-blue-600">Topic</a>
-        <a href="#" class="text-gray-700 hover:text-blue-600">Post</a>
-        <a href="#" class="text-gray-700 hover:text-blue-600">User</a>
+        <a href="{{route('admin.post')}}" class="text-gray-700 hover:text-blue-600">manage post</a>
+        <a href="{{route('admin.post.create')}}" class="text-gray-700 hover:text-blue-600">insert post</a>
       </nav>
 
       <!-- Profile Dropdown -->

@@ -56,7 +56,7 @@
             <div class="flex items-center justify-between">
               <div>
                 <h3 class="text-xl font-semibold text-gray-800">Total Posts</h3>
-                <p class="mt-2 text-3xl font-bold">123</p>
+                <p class="mt-2 text-3xl font-bold">{{\App\Models\Post::count()}}</p>
               </div>
               <div class="bg-blue-100 p-2 rounded-full">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -72,7 +72,7 @@
             <div class="flex items-center justify-between">
               <div>
                 <h3 class="text-xl font-semibold text-gray-800">Total Users</h3>
-                <p class="mt-2 text-3xl font-bold">456</p>
+                <p class="mt-2 text-3xl font-bold">{{\App\Models\User::count()}}</p>
               </div>
               <div class="bg-green-100 p-2 rounded-full">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-green-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -86,8 +86,8 @@
           <div class="bg-white p-4 rounded-lg shadow-md">
             <div class="flex items-center justify-between">
               <div>
-                <h3 class="text-xl font-semibold text-gray-800">Total Comments</h3>
-                <p class="mt-2 text-3xl font-bold">789</p>
+                <h3 class="text-xl font-semibold text-gray-800">Total Topic</h3>
+                <p class="mt-2 text-3xl font-bold">{{\App\Models\Topic::count()}}</p>
               </div>
               <div class="bg-yellow-100 p-2 rounded-full">
                 <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-yellow-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -101,7 +101,7 @@
           <div class="bg-white p-4 rounded-lg shadow-md">
             <div class="flex items-center justify-between">
               <div>
-                <h3 class="text-xl font-semibold text-gray-800">Total Views</h3>
+                <h3 class="text-xl font-semibold text-gray-800">Total Draft</h3>
                 <p class="mt-2 text-3xl font-bold">1.2K</p>
               </div>
               <div class="bg-red-100 p-2 rounded-full">
